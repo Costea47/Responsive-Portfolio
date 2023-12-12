@@ -13,7 +13,7 @@
   
   
 }
-
+/* Global styles*/
 body {
   margin: 0;
   padding: 0;
@@ -42,6 +42,7 @@ body {
   0 0 102px #0fa,
   0 0 151px #0fa;
 }
+/* Navigation styles */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -86,22 +87,24 @@ a {
 p {
   font-size: 16px;
 }
-
+/* Hero banner section styles */
 .hero-banner {
   height: 400px;
-   background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size:cover ;
-    position: relative;
-  background-color:rgb(202, 236, 202);
+  position: relative;
+  background: rgb(1, 177, 130);
+  background: linear-gradient(90deg, rgba(4, 225, 166, 0.771) 0%, rgba(4, 199, 212, 0.642) 100%);
+  
   }
 
 #heroSubtitle{
   position:absolute;
   right: 100px;
   bottom: 55px;
-  background: rgb(0,209,154);
-  background: linear-gradient(90deg, rgba(2, 162, 119, 0.771) 0%, rgba(1, 131, 140, 0.642) 100%);
+  background: rgb(3, 172, 127);
+  background: linear-gradient(90deg, rgba(3, 202, 149, 0.771) 0%, rgba(3, 169, 181, 0.642) 100%);
   text-shadow:
   0 0 7px #fff,
   0 0 10px #fff,
@@ -115,7 +118,7 @@ p {
   padding: 15px;
   
 }
-  
+/* Navigation list */
 nav ul li{
     display: inline-block;
 }
@@ -167,7 +170,7 @@ p {
   background-color:rgb(207, 247, 207);
   
 }
-
+/* Grid Section */
 #categoryGrid {
   margin: 0px 5%;
   display: grid;
@@ -273,6 +276,7 @@ p {
   margin-bottom: 15px;
   
 }
+/* Contact Me Section */
 .page-section-contact{
   background: rgb(0,209,154);
   background: linear-gradient(90deg, rgba(2, 162, 119, 0.771) 0%, rgba(1, 131, 140, 0.642) 100%);
@@ -281,4 +285,60 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+
+
+/* Tablet media queries */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px; 
+  }
+
+  .header h1 {
+    font-size: 36px; 
+  }
+
+  .header nav {
+    font-size: 16px; 
+  }
+
+  #categoryGrid {
+    grid-template-areas:
+      "about about-content about-content"
+      "project0 project1 project1"
+      "project0 project2 project3"
+      "project0 project4 project5";
+  }
+
+  .page-section-contact {
+    height: auto; 
+  }
+}
+
+/* Phone media queries */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px; 
+  }
+
+  .header h1 {
+    font-size: 24px; 
+  }
+
+  .header nav {
+    font-size: 14px; 
+  }
+
+  #categoryGrid {
+    grid-template-areas:
+      "about about-content about-content"
+      "project0 project1 project1"
+      "project0 project2 project3"
+      "project0 project4 project5";
+  }
+
+  .page-section-contact {
+    height: auto; 
+  }
 }
