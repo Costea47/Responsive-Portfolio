@@ -197,7 +197,7 @@ p {
 }
 #project1 {
   grid-area: project1;
-  background-image:url(/Assets/images/02-portfolio-4.jpg) ;
+  background-image:url(../images/02-portfolio-4.jpg) ;
   
   margin: 15px 15px 15px 15px;
   border: rgb(0,209,154) solid 5px;
@@ -210,7 +210,7 @@ p {
 }
 #project2{
   grid-area: project2;
-  background-image:url(/Assets/images/02-portfolio-1.jpg) ;
+  background-image:url(../images/02-portfolio-1.jpg) ;
   border: rgb(0,209,154) solid 5px;
   background-size: cover;
   transition: opacity 0.2s ease; 
@@ -221,7 +221,7 @@ p {
 }
 #project3{
   grid-area: project3;
-  background-image:url(/Assets/images/02-portfolio-2.jpg) ;
+  background-image:url(../images/02-portfolio-2.jpg) ;
   border: rgb(0,209,154) solid 5px;
   background-size: cover;
   transition: opacity 0.2s ease; 
@@ -232,7 +232,7 @@ p {
 }
 #project4{
   grid-area: project4;
-  background-image:url(/Assets/images/02-portfolio-3.jpg) ;
+  background-image:url(../images/02-portfolio-3.jpg) ;
   border: rgb(0,209,154) solid 5px;
   background-size: cover;
   transition: opacity 0.2s ease; 
@@ -243,7 +243,7 @@ p {
 }
 #project5{
   grid-area: project5;
-  background-image:url(/Assets/images/02-portfolio-4.jpg) ;
+  background-image:url(../images/02-portfolio-4.jpg) ;
   border: rgb(0,209,154) solid 5px;
   background-size: cover;
   transition: opacity 0.2s ease; 
